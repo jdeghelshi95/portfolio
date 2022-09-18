@@ -5,7 +5,10 @@
 
 
 .mainBG{
-  background-image: url(https://i.imgur.com/lGYBDFC.jpg);
+  background-image: url(https://i.imgur.com/oHUwzyl.jpg);
+  background-size: cover;
+  background-position: center;
+
 }
 
 .App {
