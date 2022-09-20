@@ -39,12 +39,12 @@ const Profile = () => {
        <div className="w-full flex justify-between mt-12">
 
               <div className="hover:bg-red-400 w-fit text-white bg-black ml-5 rounded-lg p-2">
-                <button> Tic-Tac-Toe-Ai</button>
+                <button><a href=""> Tic-Tac-Toe-Ai </a></button>
               </div>
               
               
               <div className="hover:bg-red-400 bg-black w-fit text-white rounded-lg p-2">
-                <button className="">VideoHUB</button>
+                <button className=""><a href="https://videoembeds.herokuapp.com/">VideoHUB</a></button>
               </div>
               
               <div className="hover:bg-red-400 bg-black w-fit text-white mr-5 rounded-lg p-2">
