@@ -8,6 +8,7 @@ import Login from './pages/Login';
 import Profile from './pages/Profile';
 import SignUp from './pages/SignUp';
 import Skills from './pages/Skills';
+import Footer from './Components/Footer';
 //import all of your components to use them
 
 
@@ -27,16 +28,14 @@ function App() {
     <div className="App mainBG">
       <Nav/>
       <Routes>
-
           <Route path='/' element={<About/>}/>
           <Route path='/contact' element={<ContactMe contactMe={contact}/>}/>
           <Route path='/login' element={<Login user={user} setUser={setUser}/>}/>
           <Route path='/prof' element={<Profile />}/>
           <Route path='/signup' element={<SignUp user={user} setUser={setUser}/>}/>
           <Route path='/skills' element={<Skills currentSkills={skills}/>}/>
-
       </Routes>
-
+    <Footer/>
     
     </div>
   );
